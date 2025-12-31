@@ -1,0 +1,1051 @@
+[15:40:30] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.2
+[15:40:32] [ForkJoinPool-1-worker-1/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[15:40:35] [main/INFO]: Loading 181 mods:
+	- advancednetherite 2.1.3-1.20.1
+	- architectury 9.2.14
+	- aviator_dream 2.0.0
+	- balm 7.3.37
+	   \-- kuma_api 20.1.12
+	- bettercombat 1.8.6+1.20.1
+	- bettermineshafts 1.20-Fabric-4.0.4
+	   \-- org_reflections_reflections 0.10.2
+	- create 6.0.8.1+build.1744-mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 1.0.5+1.20.1.build.264
+	   |-- forgeconfigapiport 8.0.0
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- ponder 1.0.91
+	   |    |-- com_google_code_findbugs_jsr305 3.0.2
+	   |    |-- flywheel 1.0.0
+	   |    |-- forgeconfigapiport 8.0.0
+	   |    \-- javax_annotation_javax_annotation-api 1.3.2
+	   |-- porting_lib_accessors 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_base 2.3.13+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    |-- porting_lib_attributes 2.3.13+1.20.1
+	   |    |-- porting_lib_common 2.3.13+1.20.1
+	   |    |-- porting_lib_config 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    |-- porting_lib_fluids 2.3.13+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.13+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.13+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.13+1.20.1
+	   |    |-- porting_lib_utility 2.3.13+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_client_events 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_entity 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.13+1.20.1
+	   |-- porting_lib_extensions 2.3.13+1.20.1
+	   |    |-- porting_lib_attributes 2.3.13+1.20.1
+	   |    |-- porting_lib_common 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_model_generators 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    |-- porting_lib_data 2.3.13+1.20.1
+	   |    |-- porting_lib_model_materials 2.3.13+1.20.1
+	   |    \-- porting_lib_utility 2.3.13+1.20.1
+	   |-- porting_lib_models 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    |-- porting_lib_fluids 2.3.13+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.13+1.20.1
+	   |-- porting_lib_networking 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_obj_loader 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.13+1.20.1
+	   |-- porting_lib_tool_actions 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_transfer 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    \-- porting_lib_fluids 2.3.13+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.79-MC1.20.1
+	        |-- com_google_code_findbugs_jsr305 3.0.2
+	        \-- porting_lib_tags 3.0
+	             \-- porting_lib_gametest 2.1.1090+1.20
+	- creativecore 2.12.33
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- darkmobs 1.1.9
+	- dawn 5.0.0
+	   |-- terraform-shapes-api-v1 7.0.1
+	   \-- terraform-wood-api-v1 7.0.1
+	- fabric-api 0.92.6+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.8+kotlin.2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fallingtree 4.3.4
+	- fastmove 1.0.8
+	- geckolib 4.8.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- immersive_aircraft 1.4.0+1.20.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- immersive_armors 1.7.1+1.20.1
+	- java 17
+	- justhammers 20.1.5+mc1.20.1
+	- lithostitched 1.4.11
+	- majruszlibrary 7.0.8
+	- majruszsdifficulty 1.9.10
+	- man_of_many_planes 0.2.0+1.20.1
+	- minecraft 1.20.1
+	- mr_lukis_grandcapitals 1.1.2
+	- mr_lukis_strongholds 1-v1.0
+	- mr_lukis_woodlandmansions 1-v.1.0
+	- mru 1.0.4+1.20.1+fabric
+	- mutantmonsters 8.0.7
+	   \-- extensibleenums 7.0.1
+	- mutantszombies 1.3.1-Fabric-mc1.20.1
+	   \-- cloth-config 11.1.118
+	        \-- cloth-basic-math 0.6.1
+	- naturalist 5.0pre5
+	   \-- midnightlib 1.4.1
+	- owo 0.11.2+1.20
+	- platform 1.2.11.3
+	- player-animator 1.0.2-rc1+1.20
+	- plentyofarmors 1.3.0
+	- puzzleslib 8.1.33
+	   \-- puzzlesaccessapi 20.1.1
+	- railways 1.6.14-beta+fabric-mc1.20.1
+	   \-- mm 2.3
+	- silk-all 1.10.1
+	   |-- silk-commands 1.10.1
+	   |-- silk-core 1.10.1
+	   |-- silk-game 1.10.1
+	   |-- silk-igui 1.10.1
+	   |-- silk-nbt 1.10.1
+	   |-- silk-network 1.10.1
+	   \-- silk-persistence 1.10.1
+	- sparsestructures 3.0
+	- structory 1.3.5
+	- tacz 0.2.0-forge1.1.7
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- com_github_figuramc_luaj_luaj-core 3.0.8-figura
+	   |-- com_github_figuramc_luaj_luaj-jse 3.0.8-figura
+	   |-- mkb 1.2.0
+	   |-- org_apache_bcel_bcel 6.6.1
+	   \-- org_apache_commons_commons-math3 3.6.1
+	- tectonic 3.0.17
+	- terralith 2.5.4
+	- travelersbackpack 9.1.43
+	   \-- reach-entity-attributes 2.4.0
+	- undeadnights 2.0.1-Fabric-mc1.20.1
+	   \-- cloth-config 11.1.118
+	        \-- cloth-basic-math 0.6.1
+	- underground_bunkers 1.0.3
+	- vanillabackport 1.1.5.1
+	- waystones 14.1.17
+	- yet_another_config_lib_v3 3.6.6+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yigd 2.0.16
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+	- yungsapi 1.20-Fabric-4.0.6
+	   \-- org_javassist_javassist 3.29.2-GA
+[15:40:35] [main/WARN]: Found 1 non-fabric mod:
+	- zombieawareness-1.20.1-1.13.1.jar
+[15:40:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/cola-sucia-3/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:40:37] [main/INFO]: Compatibility level set to JAVA_17
+[15:40:37] [main/WARN]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:40:38] [main/WARN]: Reference map 'plenty-of-armors-refmap.json' for plentyofarmors.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:40:38] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:40:38] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:40:38] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[15:40:38] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[15:40:38] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[15:40:38] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[15:40:38] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[15:40:38] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[15:40:38] [main/WARN]: Error loading class: net/minecraft/class_572 (java.lang.ClassNotFoundException: net/minecraft/class_572)
+[15:40:38] [main/WARN]: @Mixin target net.minecraft.class_572 was not found fastmove.mixins.json:BipedEntityModelMixin from mod fastmove
+[15:40:39] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[15:40:39] [main/WARN]: Error loading class: dev/engine_room/flywheel/lib/visual/AbstractVisual (java.lang.ClassNotFoundException: dev/engine_room/flywheel/lib/visual/AbstractVisual)
+[15:40:39] [main/WARN]: @Mixin target dev.engine_room.flywheel.lib.visual.AbstractVisual was not found railways-common.mixins.json:client.AccessorAbstractVisual from mod railways
+[15:40:39] [main/WARN]: Error loading class: com/illusivesoulworks/comforts/common/block/BaseComfortsBlock (java.lang.ClassNotFoundException: com/illusivesoulworks/comforts/common/block/BaseComfortsBlock)
+[15:40:39] [main/WARN]: @Mixin target com.illusivesoulworks.comforts.common.block.BaseComfortsBlock was not found undeadnights.mixins.json:BaseComfortBlocksMixin from mod undeadnights
+[15:40:39] [main/WARN]: Error loading class: net/mehvahdjukaar/moonlight/api/set/leaves/LeavesType (java.lang.ClassNotFoundException: net/mehvahdjukaar/moonlight/api/set/leaves/LeavesType)
+[15:40:39] [main/WARN]: Error loading class: net/mehvahdjukaar/moonlight/api/set/wood/WoodType (java.lang.ClassNotFoundException: net/mehvahdjukaar/moonlight/api/set/wood/WoodType)
+[15:40:39] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[15:40:39] [main/WARN]: Error loading class: io/github/apace100/apoli/power/KeepInventoryPower (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/KeepInventoryPower)
+[15:40:39] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen)
+[15:40:39] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen was not found create.mixins.json:compat.ftbchunks.LargeMapScreenAccessor from mod create
+[15:40:39] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel)
+[15:40:39] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.RegionMapPanel was not found create.mixins.json:compat.ftbchunks.RegionMapPanelAccessor from mod create
+[15:40:39] [main/WARN]: Error loading class: net/minecraft/class_4587$class_4665 (java.lang.ClassNotFoundException: net/minecraft/class_4587$class_4665)
+[15:40:39] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:40:47] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[15:40:47] [main/WARN]: Method overwrite conflict for getPools in porting_lib_tool_actions.mixins.json:BuilderAccessor from mod porting_lib_tool_actions, previously written by com.blackgear.platform.core.mixin.fabric.LootTableBuilderMixin. Skipping method.
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:douglas_dc1
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:douglas_dc2
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:douglas_c47
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:lockheed_l1049g
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:test
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:dehavilland_dh106
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:fokker_fviib3m
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:fokker_fviia
+[15:40:47] [main/ERROR]: No data fixer registered for aviator_dream:toyota_stout_k100
+[15:40:47] [main/INFO]: Reflections took 47 ms to scan 1 urls, producing 1 keys and 2 values
+[15:40:47] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[15:40:47] [main/INFO]: Create 6.0.8.1 initializing!
+[15:40:50] [main/INFO]: initializing FastMove :3
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:bamboo_hopper
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
+[15:40:50] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
+[15:40:51] [main/ERROR]: No data fixer registered for cerberus
+[15:40:51] [main/ERROR]: No data fixer registered for creeperling
+[15:40:51] [main/ERROR]: No data fixer registered for cursed_armor
+[15:40:51] [main/ERROR]: No data fixer registered for tank
+[15:40:51] [main/ERROR]: No data fixer registered for man_of_many_planes:scarlet_biplane
+[15:40:51] [main/ERROR]: No data fixer registered for man_of_many_planes:economy_plane
+[15:40:51] [main/INFO]: Definitely not up to no good
+[15:40:51] [main/ERROR]: No data fixer registered for creeper_minion
+[15:40:51] [main/ERROR]: No data fixer registered for mutant_creeper
+[15:40:51] [main/ERROR]: No data fixer registered for mutant_enderman
+[15:40:51] [main/ERROR]: No data fixer registered for mutant_skeleton
+[15:40:51] [main/ERROR]: No data fixer registered for mutant_snow_golem
+[15:40:51] [main/ERROR]: No data fixer registered for mutant_zombie
+[15:40:51] [main/ERROR]: No data fixer registered for spider_pig
+[15:40:51] [main/ERROR]: No data fixer registered for body_part
+[15:40:51] [main/ERROR]: No data fixer registered for creeper_minion_egg
+[15:40:51] [main/ERROR]: No data fixer registered for endersoul_clone
+[15:40:51] [main/ERROR]: No data fixer registered for endersoul_fragment
+[15:40:51] [main/ERROR]: No data fixer registered for throwable_block
+[15:40:51] [main/INFO]: Constructing common components for mutantmonsters:main
+[15:40:51] [main/INFO]: Loading common config for mutantmonsters
+[15:40:51] [Thread-2/INFO]: Reloading common config for mutantmonsters
+[15:40:51] [Thread-2/INFO]: Reloading common config for mutantmonsters
+[15:40:51] [main/ERROR]: No data fixer registered for mutantszombies:blister_zombie
+[15:40:51] [main/ERROR]: No data fixer registered for mutantszombies:crawler
+[15:40:51] [main/ERROR]: No data fixer registered for mutantszombies:spitter
+[15:40:51] [main/ERROR]: No data fixer registered for mutantszombies:spitter_projectile
+[15:40:51] [main/ERROR]: No data fixer registered for mutantszombies:zombie_brute
+[15:40:51] [main/ERROR]: No data fixer registered for mutantszombies:split_head_zombie
+[15:40:51] [main/ERROR]: No data fixer registered for mutantszombies:mutant_brute
+[15:40:51] [main/ERROR]: No data fixer registered for mutantszombies:rotten_mutant
+[15:40:51] [main/INFO]: Registering Mod Items for mutantszombies
+[15:40:51] [main/INFO]: Registering Sounds for mutantszombies
+[15:40:51] [main/INFO]: Maybe we take a page out of the Wisp Forest handbook: When in doubt, steal glisco's code
+[15:40:51] [main/INFO]: Registering Mod items forplentyofarmors
+[15:40:51] [main/INFO]: Constructing common components for puzzleslib:main
+[15:40:51] [main/INFO]: Steam 'n' Rails v1.6.14-beta initializing! Commit hash: a23701697f25a217ed967b564a216a6429e07009 on Create version: 6.0.8.1 on platform: Fabric
+[15:40:51] [main/INFO]: Registered bogey styles from railways
+[15:40:51] [main/INFO]: Registering data fixers
+[15:40:51] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[15:40:51] [main/INFO]: Registering tracks for Hex Casting
+[15:40:51] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[15:40:51] [main/INFO]: Registering tracks for Blue Skies
+[15:40:51] [main/INFO]: Registering tracks for Twilight Forest
+[15:40:51] [main/INFO]: Registering tracks for Biomes O' Plenty
+[15:40:51] [main/INFO]: Registering tracks for Nature's Spirit
+[15:40:51] [main/INFO]: Registering tracks for Dreams and Desires
+[15:40:51] [main/INFO]: Registering tracks for Quark
+[15:40:51] [main/INFO]: Registering tracks for TerraFirmaCraft
+[15:40:52] [main/INFO]: Initializing Silk due to init call
+[15:40:52] [main/INFO]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[15:40:52] [main/INFO]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[15:40:52] [main/INFO]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[15:40:52] [main/INFO]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[15:40:52] [main/INFO]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[15:40:52] [main/INFO]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[15:40:52] [main/INFO]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[15:40:52] [main/INFO]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[15:40:52] [main/INFO]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[15:40:52] [main/ERROR]: No data fixer registered for target_minecart
+[15:40:52] [main/ERROR]: No data fixer registered for 
+[15:40:53] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[15:40:53] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[15:40:53] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[15:40:53] [main/INFO]: Registered the FluidEffect with Unique ID of milk:still_milk for Milk (Fluid Amount Required: 81000) with the ID 3
+[15:40:53] [main/INFO]: Initializing the Undead Nights Mod
+[15:40:53] [main/INFO]: Loading undeadnights horde mobs config
+[15:40:53] [main/INFO]: No target entities specified in horde mob config, no additional entities will be targeted.
+[15:40:53] [main/INFO]: Default horde mob undeadnights:horde_zombie was read from config.
+[15:40:53] [main/INFO]: Horde mob undeadnights:elite_zombie with chance 3% was read from config.
+[15:40:53] [main/INFO]: Horde mob undeadnights:demolition_zombie with chance 6% was read from config.
+[15:40:53] [main/INFO]: Setting current difficulty level to: Level 1
+[15:40:53] [main/INFO]: Loaded difficulty config with 1 difficulty levels.
+[15:40:53] [main/ERROR]: No data fixer registered for undeadnights:horde_zombie
+[15:40:53] [main/ERROR]: No data fixer registered for undeadnights:demolition_zombie
+[15:40:53] [main/ERROR]: No data fixer registered for undeadnights:elite_zombie
+[15:40:53] [main/ERROR]: No data fixer registered for undeadnights:tnt_projectile
+[15:40:53] [main/INFO]: Registering Mod Items for undeadnights
+[15:40:53] [main/INFO]: Registering Sounds for undeadnights
+[15:40:53] [main/INFO]: Registering Mod Potions for undeadnights
+[15:40:53] [main/INFO]: Registering Item Groups for undeadnights
+[15:40:53] [main/INFO]: Hello Fabric world!
+[15:40:53] [main/ERROR]: No data fixer registered for creaking
+[15:40:53] [main/ERROR]: No data fixer registered for happy_ghast
+[15:40:53] [main/ERROR]: No data fixer registered for pale_oak_boat
+[15:40:53] [main/ERROR]: No data fixer registered for pale_oak_chest_boat
+[15:40:53] [main/ERROR]: No data fixer registered for armadillo
+[15:40:53] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[15:40:53] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[15:40:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:40:53] [main/INFO]: Created 170 recipes which will be injected into the game
+[15:40:53] [main/INFO]: Created 0 tags which will be injected into the game
+[15:41:08] [main/INFO]: Start scanning for gun packs in /workspaces/cola-sucia-3/servidor_minecraft/tacz
+[15:41:09] [main/INFO]: - Suffuse-GunSmoke-Pack1.0.7--hotfix.zip, Main namespace: suffuse
+[15:41:09] [main/INFO]: - 82laffey1.1.2(1).zip, Main namespace: mk16
+[15:41:09] [main/INFO]: - [Tacz1.1.6]sxgunpack.zip, Main namespace: wyyc1991
+[15:41:09] [main/ERROR]: Failed to load extension from ZIP TTI_Gunpack-v0.1.1-0607-154832.zip. Error: No gunpack.meta.json found
+[15:41:09] [main/INFO]: - ChocolateMan V1.2.3.zip, Main namespace: qkl
+[15:41:09] [main/INFO]: - RE_Gunpack_v1.1.1_tacz1.1.7.zip, Main namespace: RESIDENT EVIL
+[15:41:09] [main/INFO]: - HareTactics_Pack_v1.0.5.zip, Main namespace: hare
+[15:41:09] [main/INFO]: - The Division pack_ver.0.3.3.zip, Main namespace: gz
+[15:41:09] [main/INFO]: - Rebel v1.0.8a.zip, Main namespace: rebel
+[15:41:09] [main/INFO]: - RFP v1.0.8 fix1.zip, Main namespace: kpp
+[15:41:09] [main/INFO]: - tacz_default_gun, Main namespace: tacz
+[15:41:09] [main/INFO]: - tactical_guns_zero.zip, Main namespace: tgz
+[15:41:09] [main/INFO]: - Cold War from 1947-1991 v0.51.zip, Main namespace: rainforest
+[15:41:09] [main/INFO]: - The Continental v1.8 hotfix.zip, Main namespace: the_continental
+[15:41:09] [main/INFO]: - Apocalypse_v1.1.4_F.zip, Main namespace: bf1
+[15:41:09] [main/ERROR]: Failed to load extension from ZIP Metal Gear Solid V ver0.1.0.zip. Error: No gunpack.meta.json found
+[15:41:09] [main/INFO]: Found 14 possible gunpack(s) and added them to resource set.
+[15:41:12] [main/WARN]: toughasnails:thirst missing from registry, but requested!
+[15:41:12] [main/WARN]: toughasnails:ice_resistance missing from registry, but requested!
+[15:41:12] [main/WARN]: toughasnails:climate_clemency missing from registry, but requested!
+[15:41:12] [main/WARN]: toughasnails:internal_warmth missing from registry, but requested!
+[15:41:12] [main/WARN]: toughasnails:internal_chill missing from registry, but requested!
+[15:41:12] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[15:41:14] [Worker-Main-1/WARN]: Invalid path in datapack: mk16:recipes/attachments/553+g43.json, ignoring
+[15:41:14] [Worker-Main-1/WARN]: Invalid path in datapack: mk16:recipes/attachments/553+g43f.json, ignoring
+[15:41:14] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:mansions:mansion_common
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.class_3518.method_15265(class_3518.java:127) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_432(class_83.java:67) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_443(class_83.java:58) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[15:41:14] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:strongholds:stronghold_equipment
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.class_3518.method_15265(class_3518.java:127) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_432(class_83.java:67) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_443(class_83.java:58) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[15:41:14] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:strongholds:stronghold_equipment_ranged
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.class_3518.method_15265(class_3518.java:127) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_432(class_83.java:67) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_443(class_83.java:58) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[15:41:15] [main/ERROR]: Parsing error loading recipe rcp:ammo/t74_fuel
+com.google.gson.JsonSyntaxException: Unknown item 'createdieselgenerators:gasoline_bucket'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[server-intermediary.jar:?]
+	at com.tacz.guns.resource.serialize.GunSmithTableIngredientSerializer.deserialize(GunSmithTableIngredientSerializer.java:18) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.serialize.GunSmithTableIngredientSerializer.deserialize(GunSmithTableIngredientSerializer.java:10) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:82) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at com.tacz.guns.crafting.GunSmithTableSerializer.fromJson(GunSmithTableSerializer.java:24) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.crafting.GunSmithTableSerializer.method_8121(GunSmithTableSerializer.java:20) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[15:41:15] [main/INFO]: Loaded 25 recipes
+[15:41:15] [main/INFO]: Loaded 3483 advancements
+[15:41:16] [main/ERROR]: Failed to load data file suffuse:knife
+com.google.gson.JsonParseException: there is no corresponding data file
+	at com.tacz.guns.resource.serialize.CommonGunIndexSerializer.deserialize(CommonGunIndexSerializer.java:19) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.serialize.CommonGunIndexSerializer.deserialize(CommonGunIndexSerializer.java:12) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.parseJson(JsonDataManager.java:75) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.apply(JsonDataManager.java:64) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.apply(CommonDataManager.java:42) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.method_18788(CommonDataManager.java:22) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[15:41:16] [main/ERROR]: Failed to load data file qkl:mu73_bayonet
+com.google.gson.JsonParseException: there is no corresponding data file
+	at com.tacz.guns.resource.serialize.CommonAttachmentIndexSerializer.deserialize(CommonAttachmentIndexSerializer.java:19) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.serialize.CommonAttachmentIndexSerializer.deserialize(CommonAttachmentIndexSerializer.java:12) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.parseJson(JsonDataManager.java:75) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.apply(JsonDataManager.java:64) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.apply(CommonDataManager.java:42) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.method_18788(CommonDataManager.java:22) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[15:41:16] [main/INFO]: Reloading grave shape (server)
+[15:41:16] [main/INFO]: Grave model and shape reload successful (server)
+[15:41:16] [main/INFO]: Reloading YIGD graveyard data (server)
+[15:41:16] [main/INFO]: Graveyard data successfully reloaded (server)
+[15:41:16] [main/INFO]: Reloading YIGD grave area overrides (server)
+[15:41:16] [main/INFO]: Grave area overrides successfully reloaded (server)
+[15:41:18] [main/INFO]: Applied 3532 biome modifications to 164 of 164 new biomes in 65.80 ms
+[15:41:18] [main/INFO]: [majruszlibrary.json] Reloading configuration file took 2 milliseconds
+[15:41:18] [main/INFO]: [majruszsdifficulty.json] Reloading configuration file took 9 milliseconds
+[15:41:18] [Server thread/INFO]: Reached SERVER_STARTING state
+[15:41:18] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[15:41:18] [Server thread/INFO]: Loading server config for mutantmonsters
+[15:41:18] [Server thread/ERROR]: Registry 'terraform:boat' was empty after loading
+[15:41:18] [Server thread/ERROR]: Registry 'minecraft:wolf_sound_variant' was empty after loading
+[15:41:18] [Server thread/ERROR]: Registry 'minecraft:cow_variant' was empty after loading
+[15:41:18] [Server thread/ERROR]: Registry 'minecraft:chicken_variant' was empty after loading
+[15:41:18] [Server thread/ERROR]: Registry 'minecraft:pig_variant' was empty after loading
+[15:41:18] [Server thread/ERROR]: Registry 'minecraft:wolf_variant' was empty after loading
+[15:41:18] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:41:18] [Server thread/INFO]: Loading properties
+[15:41:18] [Server thread/INFO]: Default game type: SURVIVAL
+[15:41:18] [Server thread/INFO]: Generating keypair
+[15:41:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:41:18] [Server thread/INFO]: Using epoll channel type
+[15:41:18] [Server thread/INFO]: Preparing level "world"
+[15:41:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:41:29] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:41:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:41:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:41:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:41:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:41:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:41:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:41:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:41:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:41:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:41:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:41:31] [Worker-Main-3/INFO]: Preparing spawn area: 4%
+[15:41:32] [Worker-Main-1/INFO]: Preparing spawn area: 61%
+[15:41:32] [Server thread/INFO]: Time elapsed: 6298 ms
+[15:41:32] [Server thread/INFO]: Done (13.980s)! For help, type "help"
+[15:41:32] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 36832 bytes (in 4 string chunks with the size of 10000)
+[15:45:12] [User Authenticator #1/INFO]: UUID of player CGreens is 743142f2-4877-476a-a634-d5fecb04ce0d
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:copper_purified_water_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_chestplate is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:empty_copper_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_leggings is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_helmet is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_boots is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_chestplate is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_leggings is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_helmet is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:copper_purified_water_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_boots is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:diamond_purified_water_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_leggings is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:wool_boots is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:diamond_purified_water_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:copper_purified_water_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:copper_purified_water_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:diamond_purified_water_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:copper_water_canteen is
+[15:45:13] [Server thread/WARN]: Invalid statistic in ./world/stats/743142f2-4877-476a-a634-d5fecb04ce0d.json: Don't know what toughasnails:empty_copper_canteen is
+[15:45:13] [Server thread/WARN]: Ignored advancement 'betterdungeons:root' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/food/charc_os' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_iron_canteen' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_copper_canteen' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/decorations/water_purifier' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_gold_canteen' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_diamond_canteen' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/thermometer' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/decorations/rain_collector' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_leather_canteen' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/combat/wool_helmet' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/combat/wool_leggings' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/combat/wool_chestplate' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/combat/wool_boots' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/food/apple_juice' in progress file ./world/advancements/743142f2-4877-476a-a634-d5fecb04ce0d.json - it doesn't exist anymore?
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_boots removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:charc_os removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_leggings removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_helmet removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_chestplate removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:apple_juice removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_diamond_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:rain_collector removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_gold_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_leather_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_copper_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:water_purifier removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:thermometer removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_iron_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_boots removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:charc_os removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_leggings removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_helmet removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_chestplate removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:apple_juice removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_diamond_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:rain_collector removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_gold_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_leather_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_copper_canteen removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:water_purifier removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:thermometer removed now.
+[15:45:13] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_iron_canteen removed now.
+[15:45:13] [Server thread/INFO]: CGreens[/100.84.203.22:58466] logged in with entity id 139 at (-3431.632725383322, 64.0, 4413.6121074274615)
+[15:45:13] [Server thread/INFO]: Sending server config values to client
+[15:45:14] [Server thread/INFO]: Loading config from file...
+[15:45:14] [Server thread/INFO]: CGreens joined the game
+[15:45:15] [Netty Epoll Server IO #2/INFO]: Receiving client config
+[15:45:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2107ms or 42 ticks behind
+[15:45:26] [Netty Epoll Server IO #2/INFO]: Priority overwritten for player CGreens. Claiming: GRAVE / Robbing: INVENTORY
+[15:46:21] [User Authenticator #2/INFO]: UUID of player Zatanna917 is 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:wool_helmet is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:copper_purified_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:copper_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:water_purifier is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:empty_diamond_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:empty_copper_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:wool_leggings is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:copper_purified_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:wool_boots is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:diamond_purified_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:diamond_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:wool_leggings is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:wool_boots is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:diamond_purified_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:wool_chestplate is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:water_purifier is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:wool_helmet is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:copper_purified_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:diamond_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:water_purifier is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:water_purifier is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:empty_diamond_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:empty_copper_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:wool_leggings is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:copper_purified_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:diamond_purified_water_canteen is
+[15:46:22] [Server thread/WARN]: Invalid statistic in ./world/stats/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json: Don't know what toughasnails:copper_water_canteen is
+[15:46:22] [Server thread/WARN]: Ignored advancement 'betterdungeons:root' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/food/apple_juice' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/food/charc_os' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_iron_canteen' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_copper_canteen' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/decorations/water_purifier' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/decorations/rain_collector' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/combat/wool_helmet' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/combat/wool_leggings' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/combat/wool_chestplate' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/combat/wool_boots' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_gold_canteen' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/empty_diamond_canteen' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/tools/thermometer' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/food/ice_cream' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/WARN]: Ignored advancement 'toughasnails:recipes/food/pumpkin_juice' in progress file ./world/advancements/6fd8954e-bb1f-4654-b42e-ce4c92b762eb.json - it doesn't exist anymore?
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_boots removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:charc_os removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_leggings removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_helmet removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:wool_chestplate removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:ice_cream removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:apple_juice removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_diamond_canteen removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:rain_collector removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:pumpkin_juice removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_gold_canteen removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_copper_canteen removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:water_purifier removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:thermometer removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:empty_iron_canteen removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:charc_os removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:ice_cream removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:apple_juice removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:pumpkin_juice removed now.
+[15:46:22] [Server thread/ERROR]: Tried to load unrecognized recipe: toughasnails:thermometer removed now.
+[15:46:22] [Server thread/INFO]: Zatanna917[/100.101.238.118:54053] logged in with entity id 310 at (241.5419318353834, 113.0, 1272.4904780662198)
+[15:46:22] [Server thread/INFO]: Sending server config values to client
+[15:46:22] [Server thread/INFO]: Loading config from file...
+[15:46:22] [Server thread/INFO]: Zatanna917 joined the game
+[15:46:23] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[15:46:24] [Server thread/WARN]: Skipping BlockEntity with id toughasnails:water_purifier
+[15:46:26] [Netty Epoll Server IO #3/INFO]: Priority overwritten for player Zatanna917. Claiming: GRAVE / Robbing: INVENTORY
+[15:48:43] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to CGreens]
+[15:49:13] [Server thread/INFO]: <CGreens> oa
+[15:49:15] [Server thread/INFO]: <CGreens> :D
+[15:49:21] [Server thread/INFO]: <Zatanna917> oa owo
+[15:49:31] [Server thread/INFO]: <CGreens> :,3
+[15:49:39] [Server thread/INFO]: <CGreens> perdon si tuvimos que quitar el mod
+[15:49:42] [Server thread/INFO]: <CGreens> ns pq crasheaba
+[15:49:44] [Server thread/INFO]: <CGreens> :,c
+[15:50:01] [Server thread/INFO]: <CGreens> kiero llorar waaa
+[15:50:32] [Server thread/INFO]: <Zatanna917> :,3
+[15:51:05] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 242.500000, 113.000000, 1273.500000]
+[15:51:09] [Server thread/INFO]: <CGreens> D:
+[15:51:13] [Server thread/INFO]: [Zatanna917: Teleported CGreens to Zatanna917]
+[15:51:29] [Server thread/INFO]: <Zatanna917> :3
+[15:51:32] [Server thread/INFO]: <CGreens> :3
+[15:51:35] [Server thread/INFO]: <CGreens> muak
+[15:51:37] [Server thread/INFO]: <CGreens> uwu
+[15:51:42] [Server thread/INFO]: <Zatanna917> owo
+[15:51:50] [Server thread/INFO]: <CGreens> te amo
+[15:51:51] [Server thread/INFO]: <CGreens> uwu
+[15:51:53] [Server thread/INFO]: <Zatanna917> owo
+[15:52:12] [Server thread/INFO]: <CGreens> :c
+[15:52:28] [Server thread/INFO]: <Zatanna917> owo
+[15:53:33] [Server thread/INFO]: <CGreens> vamo moviendo todo
+[15:53:37] [Server thread/INFO]: <CGreens> >:3
+[15:53:40] [Server thread/INFO]: <Zatanna917> ño >:c
+[15:53:43] [Server thread/INFO]: <CGreens> :,c
+[15:53:47] [Server thread/INFO]: <CGreens> q hacemo primero
+[15:53:48] [Server thread/INFO]: <CGreens> wa
+[15:53:53] [Server thread/INFO]: <Zatanna917> no tenemo amatista
+[15:53:57] [Server thread/INFO]: <CGreens> :,c
+[15:54:23] [Server thread/WARN]: Zatanna917 moved wrongly!
+[15:56:39] [Server thread/INFO]: <Zatanna917> :,c
+[15:56:56] [Server thread/INFO]: <CGreens> q pasu mami
+[15:56:57] [Server thread/INFO]: <CGreens> :,c
+[15:57:16] [Server thread/INFO]: <Zatanna917> pasa que
+[15:57:20] [Server thread/INFO]: <Zatanna917> no hay amatista
+[15:57:21] [Server thread/INFO]: <Zatanna917> :;c
+[15:57:25] [Server thread/INFO]: <CGreens> :,c
+[15:59:30] [Server thread/INFO]: <CGreens> le quita un poco de immersion al juego no tener lo de temperatura pero
+[15:59:34] [Server thread/INFO]: <CGreens> no es tan molesto
+[15:59:35] [Server thread/INFO]: <CGreens> :,3
+[15:59:40] [Server thread/INFO]: <Zatanna917> :3
+[16:02:29] [Server thread/INFO]: <Zatanna917> owo
+[16:02:33] [Server thread/INFO]: <CGreens> <3
+[16:03:15] [Server thread/INFO]: <CGreens> espero podamsos celebrar nosotros el 31
+[16:04:04] [Server thread/INFO]: <CGreens> tu crees que podras? :,c
+[16:04:11] [Server thread/INFO]: <Zatanna917> :,3
+[16:04:13] [Server thread/INFO]: <Zatanna917> espero
+[16:04:25] [Server thread/INFO]: <CGreens> :,c
+[16:07:27] [Server thread/INFO]: [Zatanna917: Applied enchantment Efficiency V to Zatanna917's item]
+[16:07:34] [Server thread/INFO]: [Zatanna917: Applied enchantment Unbreaking III to Zatanna917's item]
+[16:08:46] [Server thread/INFO]: Zatanna917 was slain by Zombie
+[16:08:46] [Server thread/INFO]: Created new backpack backup file for Zatanna917 with unique ID travelersbackpack.bat_31.12.2025-16.08.46.dat
+[16:08:49] [Server thread/INFO]: <CGreens> D:
+[16:08:50] [Server thread/INFO]: <CGreens> waaa
+[16:08:52] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 134.500000, 35.000000, 1404.500000]
+[16:08:53] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at 134, 35, 1404, minecraft:overworld
+[16:10:28] [Server thread/INFO]: <Zatanna917> geoda :o
+[16:10:32] [Server thread/INFO]: <CGreens> :D
+[16:10:33] [Server thread/INFO]: <CGreens> :ooo
+[16:10:34] [Server thread/INFO]: <CGreens> wapa
+[16:10:36] [Server thread/INFO]: <CGreens> sabes que
+[16:10:43] [Server thread/INFO]: <CGreens> tenemos un libro con toque de sea
+[16:10:44] [Server thread/INFO]: <CGreens> :3
+[16:10:45] [Server thread/INFO]: <CGreens> digo
+[16:10:46] [Server thread/INFO]: <CGreens> mami
+[16:10:47] [Server thread/INFO]: <CGreens> uwu
+[16:11:47] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:12:16] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:12:29] [Server thread/INFO]: Zatanna917 was blown up by Creeper
+[16:12:29] [Server thread/INFO]: Created new backpack backup file for Zatanna917 with unique ID travelersbackpack.bat_31.12.2025-16.12.29.dat
+[16:12:34] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 108.500000, 38.000000, 1409.500000]
+[16:12:35] [Server thread/INFO]: <CGreens> waaa
+[16:12:36] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at 108, 38, 1409, minecraft:overworld
+[16:12:37] [Server thread/INFO]: <CGreens> D:
+[16:12:40] [Server thread/INFO]: <CGreens> q pasa
+[16:12:51] [Server thread/INFO]: <Zatanna917> mucho bicho
+[16:13:02] [Server thread/INFO]: <CGreens> :c
+[16:13:08] [Server thread/INFO]: CGreens was blown up by Creeper
+[16:13:20] [Server thread/INFO]: <Zatanna917> WA
+[16:13:21] [Server thread/INFO]: <CGreens> :c
+[16:13:32] [Server thread/INFO]: <CGreens> son rapidisimos los creepers
+[16:16:14] [Server thread/INFO]: Zatanna917 was slain by Warden
+[16:16:14] [Server thread/INFO]: Created new backpack backup file for Zatanna917 with unique ID travelersbackpack.bat_31.12.2025-16.16.14.dat
+[16:16:17] [Server thread/INFO]: <CGreens> D:
+[16:16:20] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to -50.500000, 2.000000, 1417.500000]
+[16:16:21] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at -51, 3, 1418, minecraft:overworld
+[16:16:24] [Server thread/INFO]: <CGreens> estas en ciudad?
+[16:16:46] [Server thread/INFO]: Zatanna917 was obliterated by a sonically-charged shriek
+[16:16:46] [Server thread/INFO]: Created new backpack backup file for Zatanna917 with unique ID travelersbackpack.bat_31.12.2025-16.16.46.dat
+[16:16:53] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to -52.500000, -31.000000, 1425.500000]
+[16:16:58] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at -53, -30, 1425, minecraft:overworld
+[16:17:04] [Server thread/INFO]: Zatanna917 was slain by Warden
+[16:17:04] [Server thread/INFO]: Created new backpack backup file for Zatanna917 with unique ID travelersbackpack.bat_31.12.2025-16.17.04.dat
+[16:17:09] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to -53.500000, -31.000000, 1416.500000]
+[16:17:10] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at -55, -30, 1416, minecraft:overworld
+[16:17:14] [Server thread/INFO]: <CGreens> :,c
+[16:17:21] [Server thread/INFO]: Zatanna917 has completed the challenge [It Spreads]
+[16:17:25] [Server thread/INFO]: CGreens was slain by Husk
+[16:17:29] [Server thread/WARN]: CGreens moved too quickly! 2.156257259681297,-2.0,9.577574116421374
+[16:18:18] [Server thread/INFO]: Zatanna917 was slain by Warden
+[16:18:18] [Server thread/INFO]: Created new backpack backup file for Zatanna917 with unique ID travelersbackpack.bat_31.12.2025-16.18.18.dat
+[16:18:22] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to -118.500000, -19.000000, 1367.500000]
+[16:18:23] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at -120, -19, 1366, minecraft:overworld
+[16:18:32] [Server thread/WARN]: CGreens moved wrongly!
+[16:18:46] [Server thread/WARN]: CGreens moved too quickly! 7.219037819263406,-1.15233518685055,7.155618347615018
+[16:18:49] [Server thread/INFO]: Zatanna917 has made the advancement [Sneak 100]
+[16:18:54] [Server thread/INFO]: CGreens claimed a grave belonging to CGreens at 324, 59, 1291, minecraft:overworld
+[16:19:18] [Server thread/INFO]: CGreens was shot by Skeleton
+[16:19:50] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:19:53] [Server thread/INFO]: Zatanna917 has made the advancement [Cover Me with Diamonds]
+[16:20:22] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:20:34] [Server thread/INFO]: Zatanna917 was slain by Mutant Brute
+[16:20:34] [Server thread/INFO]: Created new backpack backup file for Zatanna917 with unique ID travelersbackpack.bat_31.12.2025-16.20.34.dat
+[16:20:39] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to -201.500000, -30.000000, 1433.500000]
+[16:20:40] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at -202, -30, 1433, minecraft:overworld
+[16:21:41] [Server thread/WARN]: CGreens moved wrongly!
+[16:21:54] [Server thread/WARN]: CGreens moved wrongly!
+[16:22:02] [Server thread/WARN]: CGreens moved wrongly!
+[16:22:03] [Server thread/WARN]: CGreens moved wrongly!
+[16:22:17] [Server thread/INFO]: CGreens claimed a grave belonging to CGreens at 362, 24, 1328, minecraft:overworld
+[16:22:18] [Server thread/INFO]: CGreens claimed a grave belonging to CGreens at 363, 26, 1323, minecraft:overworld
+[16:22:32] [Server thread/INFO]: CGreens was blown up by Creeper
+[16:23:09] [Server thread/INFO]: CGreens was slain by Horde Zombie
+[16:23:09] [Server thread/INFO]: Did not backup data (grave data empty)
+[16:23:24] [Server thread/INFO]: CGreens was slain by Horde Zombie
+[16:23:24] [Server thread/INFO]: Did not backup data (grave data empty)
+[16:23:37] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 242.500000, 113.000000, 1273.500000]
+[16:23:49] [Server thread/INFO]: <CGreens> dejaste la puerta abierta
+[16:23:51] [Server thread/INFO]: <CGreens> >:C
+[16:24:05] [Server thread/INFO]: <Zatanna917> :c
+[16:24:07] [Server thread/INFO]: Zatanna917 has made the advancement [Master of Silence]
+[16:24:35] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:24:47] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:26:01] [Server thread/INFO]: CGreens claimed a grave belonging to CGreens at 388, 25, 1333, minecraft:overworld
+[16:26:29] [Server thread/INFO]: [Zatanna917: Set own game mode to Spectator Mode]
+[16:27:27] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:27:45] [Server thread/INFO]: Zatanna917 has made the advancement [Ice Bucket Challenge]
+[16:27:57] [Server thread/INFO]: [Zatanna917: Applied enchantment Efficiency III to Zatanna917's item]
+[16:28:41] [Server thread/INFO]: <Zatanna917> wtf
+[16:28:53] [Server thread/INFO]: <Zatanna917> hay un warden matando a los zombies
+[16:28:55] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:29:13] [Server thread/INFO]: <CGreens> :o
+[16:29:21] [Server thread/INFO]: <Zatanna917> uhh
+[16:29:29] [Server thread/INFO]: <Zatanna917> se esta peleando con un mutante zombie xd
+[16:29:40] [Server thread/INFO]: <CGreens> :ooooo
+[16:29:47] [Server thread/INFO]: <CGreens> debe ser q los concidera amenaza
+[16:29:53] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:29:54] [Server thread/INFO]: <Zatanna917> nu
+[16:29:57] [Server thread/INFO]: <Zatanna917> por el ruido
+[16:30:02] [Server thread/INFO]: <CGreens> oh
+[16:30:03] [Server thread/INFO]: <CGreens> qwp
+[16:30:41] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 242.500000, 113.000000, 1273.500000]
+[16:31:24] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:31:30] [Server thread/INFO]: <Zatanna917> donde estas?
+[16:31:30] [Server thread/INFO]: <Zatanna917> :c
+[16:31:35] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:31:36] [Server thread/INFO]: <CGreens> en la cueva
+[16:31:37] [Server thread/INFO]: <CGreens> :,3
+[16:33:11] [Server thread/INFO]: CGreens was slain by Zombie
+[16:33:14] [Server thread/INFO]: <Zatanna917> WA
+[16:33:17] [Server thread/INFO]: <CGreens> :,c
+[16:33:24] [Server thread/INFO]: <CGreens> como me matan de dos golpes
+[16:33:25] [Server thread/INFO]: <CGreens> waaa
+[16:33:26] [Server thread/INFO]: <Zatanna917> trae tus cosas
+[16:33:31] [Server thread/INFO]: <CGreens> wenu
+[16:33:32] [Server thread/INFO]: <CGreens> :c
+[16:33:45] [Server thread/INFO]: <CGreens> 2 golpes me mato un zombie normal
+[16:33:49] [Server thread/INFO]: <CGreens> ni de horda era
+[16:34:17] [Server thread/INFO]: <Zatanna917> wtf
+[16:34:20] [Server thread/INFO]: <CGreens> q :,3
+[16:34:20] [Server thread/INFO]: <Zatanna917> no cubre bien
+[16:34:24] [Server thread/INFO]: <CGreens> q cosa
+[16:34:25] [Server thread/INFO]: <CGreens> :,c
+[16:34:34] [Server thread/INFO]: <Zatanna917> la armadura de obsidiana
+[16:34:43] [Server thread/INFO]: <CGreens> como no cubre completo?
+[16:34:45] [Server thread/INFO]: <Zatanna917> no te llena toda la armadura
+[16:34:46] [Server thread/INFO]: <Zatanna917> nu
+[16:34:48] [Server thread/INFO]: <CGreens> ah
+[16:34:49] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:34:49] [Server thread/INFO]: <CGreens> :,c
+[16:34:57] [Server thread/INFO]: <CGreens> pero te debe dar resistencia o algo
+[16:35:23] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:35:35] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:35:50] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:35:59] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:36:05] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:36:24] [Server thread/INFO]: Zatanna917 has made the advancement [§3Dark Soldier]
+[16:36:31] [Server thread/INFO]: <CGreens> waaa
+[16:36:32] [Server thread/INFO]: <Zatanna917> oh esta si
+[16:36:34] [Server thread/INFO]: <Zatanna917> q paso
+[16:36:35] [Server thread/INFO]: <Zatanna917> wa
+[16:36:37] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to CGreens]
+[16:36:40] [Server thread/INFO]: <CGreens> se me bugueo el efecto de blur
+[16:36:42] [Server thread/INFO]: <CGreens> ;c
+[16:36:51] [Server thread/INFO]: <Zatanna917> y tus cosas
+[16:36:57] [Server thread/INFO]: <CGreens> pero no veo nada wa
+[16:37:01] [Server thread/INFO]: <CGreens> se ve todo borroso
+[16:37:05] [Server thread/INFO]: <CGreens> me voy a quitar ese mod
+[16:37:05] [Server thread/INFO]: CGreens has made the advancement [Custom Backpacks]
+[16:37:06] [Server thread/INFO]: <Zatanna917> ponte eso
+[16:37:06] [Server thread/INFO]: <CGreens> :c
+[16:37:11] [Server thread/INFO]: <CGreens> no es eso
+[16:37:14] [Server thread/INFO]: <CGreens> es por el mod de daño
+[16:37:17] [Server thread/INFO]: <CGreens> se bugueo
+[16:37:18] [Server thread/INFO]: <CGreens> :c
+[16:37:19] [Server thread/INFO]: <Zatanna917> wa
+[16:37:21] [Server thread/INFO]: <Zatanna917> :c
+[16:37:25] [Server thread/INFO]: <Zatanna917> vamo por tus cosas primero
+[16:37:26] [Server thread/INFO]: <CGreens> pera q lo quito
+[16:37:26] [Server thread/INFO]: <Zatanna917> wa
+[16:37:27] [Server thread/INFO]: <CGreens> :c
+[16:38:11] [Server thread/INFO]: CGreens claimed a grave belonging to CGreens at 364, 27, 1284, minecraft:overworld
+[16:38:15] [Server thread/INFO]: <CGreens> ya
+[16:38:17] [Server thread/INFO]: <CGreens> :,c
+[16:38:20] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 242.500000, 113.000000, 1273.500000]
+[16:38:21] [Server thread/INFO]: <CGreens> ahi me quito este mod
+[16:38:23] [Server thread/INFO]: [Zatanna917: Teleported CGreens to Zatanna917]
+[16:38:30] [Server thread/INFO]: <CGreens> toma
+[16:39:00] [Server thread/INFO]: CGreens lost connection: Disconnected
+[16:39:00] [Server thread/INFO]: CGreens left the game
+[16:43:28] [Server thread/INFO]: Zatanna917 has made the advancement [We Need to Go Deeper]
+[16:43:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2564ms or 51 ticks behind
+[16:45:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=13, y=117, z=122} class_2338{x=12, y=117, z=122}
+[16:46:25] [Server thread/INFO]: [Zatanna917: Set own game mode to Spectator Mode]
+[16:46:45] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:46:56] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:48:18] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:49:45] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:50:30] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:57:15] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[16:57:22] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[16:57:35] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[17:28:26] [Server thread/INFO]: <Zatanna917> wa
+[17:30:53] [Server thread/INFO]: Zatanna917 lost connection: Disconnected
+[17:30:53] [Server thread/INFO]: Zatanna917 left the game

@@ -1,0 +1,16 @@
+"The Garden Awakens" = {}
+
+["Armored Paws"]
+	#allow armadillos to generate in the overworld
+	armadillo = true
+	#allow variants for wolves to generate
+	wolf_variants = true
+	#adds wolves to more biomes for natural spawning
+	updated_wolf_spawns = true
+
+["Bundles of Bravery"]
+	#toggle the updated controls and UI for bundles
+	has_updated_bundles = true
+	#allow bundles to generate in village chests
+	bundles_on_villages = true
+
